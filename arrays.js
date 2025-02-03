@@ -87,6 +87,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+    // ! EXTRA ASSIGNMENT 
+
+    
+
+    console.log(numbersArray.reduce(
+        (accumulator, currentValue) => {
+            return accumulator + currentValue
+        }, 0,
+));
+    
+
+
 
 }) // ends DOMContentLoaded
 
