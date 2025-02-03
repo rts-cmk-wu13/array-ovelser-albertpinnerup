@@ -48,7 +48,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log(opgaveFem);
     
-   
+    // ! OPGAVE 6
+
+    console.log(dogsArray.join(''));
+    
     
     
 
