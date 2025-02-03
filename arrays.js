@@ -12,9 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     numbersArray.forEach(number => {
         if (number > 20) {
-            number.push(newNumbers);
+            newNumbers.push(number);
         }
     });
+
+    console.log(newNumbers);
 }) // ends DOMContentLoaded
 
 
