@@ -23,6 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
     catsArray.push("Sniffles");
 
     console.log(catsArray);
+
+    // ! OPGAVE 3
+
+    console.log(dogsArray.includes("Trixie"));
+
+    console.log(dogsArray.includes("Baxter"));
+    
     
 }) // ends DOMContentLoaded
 
