@@ -17,6 +17,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     console.log(newNumbers);
+
+    // ! OPGAVE 2
+
+    catsArray.push("Sniffles");
+
+    console.log(catsArray);
+    
 }) // ends DOMContentLoaded
 
 
