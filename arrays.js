@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     let catsArray = ["Ollie", "Sophie", "Salem", "Tiger", "Binx", "Pumpkin", "Penny", "Lenny"];
     let dogsArray = ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
     let fruitsArray = ["Banana", "Orange", "Pineapple", "Mango", "Plum", "Apricot"]
@@ -6,4 +6,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // --- Løs opgaverne herunder --- 
 
+    // !OPGAVE 1
+
+    newNumbers =  [];
+
+    numbersArray.forEach(number => {
+        if (number > 20) {
+            number.push(newNumbers);
+        }
+    });
 }) // ends DOMContentLoaded
+
+
+
