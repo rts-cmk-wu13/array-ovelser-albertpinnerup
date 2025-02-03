@@ -29,6 +29,23 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(dogsArray.includes("Trixie"));
 
     console.log(dogsArray.includes("Baxter"));
+
+    // ! OPGAVE 4
+
+    function catsNames(navn) {
+        const catsResults = catsArray.find((cat) => cat === navn);
+        console.log(catsResults);
+    }
+
+    catsNames("Bagheera");
+
+    catsNames("Salem");
+    
+
+   
+    
+    
+
     
     
 }) // ends DOMContentLoaded
