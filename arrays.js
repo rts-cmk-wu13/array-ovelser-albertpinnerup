@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // !OPGAVE 1
 
-    newNumbers =  [];
+    newNumbers = [];
 
     numbersArray.forEach(number => {
         if (number > 20) {
@@ -18,17 +18,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log(newNumbers);
 
+
+
     // ! OPGAVE 2
 
     catsArray.push("Sniffles");
 
     console.log(catsArray);
 
+
+
     // ! OPGAVE 3
 
     console.log(dogsArray.includes("Trixie"));
 
     console.log(dogsArray.includes("Baxter"));
+
+
 
     // ! OPGAVE 4
 
@@ -40,23 +46,38 @@ document.addEventListener("DOMContentLoaded", function () {
     catsNames("Bagheera");
 
     catsNames("Salem");
-    
+
+
 
     // ! OPGAVE 5
 
     const opgaveFem = numbersArray.map((number) => number * 3);
 
     console.log(opgaveFem);
-    
+
+
+
     // ! OPGAVE 6
 
     console.log(dogsArray.join(''));
-    
-    
-    
 
-    
-    
+
+
+    // ! OPGAVE 7
+
+    function fruitsArrayIndex(navn) {
+        console.log(fruitsArray.indexOf(navn));
+
+    }
+
+    fruitsArrayIndex("Mango")
+    fruitsArrayIndex("Blåbær")
+
+
+
+
+
+
 }) // ends DOMContentLoaded
 
 
