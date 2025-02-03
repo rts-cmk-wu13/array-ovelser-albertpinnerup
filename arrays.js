@@ -42,6 +42,12 @@ document.addEventListener("DOMContentLoaded", function () {
     catsNames("Salem");
     
 
+    // ! OPGAVE 5
+
+    const opgaveFem = numbersArray.map((number) => number * 3);
+
+    console.log(opgaveFem);
+    
    
     
     
