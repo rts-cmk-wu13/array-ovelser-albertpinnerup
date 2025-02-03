@@ -75,6 +75,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+    // ! OGPAVE 8
+
+    function removeDog(navn) {
+        dogsArray.splice(dogsArray.indexOf(navn), 1);
+
+        console.log(dogsArray); 
+    }
+
+    removeDog("Polly");
+
 
 
 
